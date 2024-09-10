@@ -12,7 +12,7 @@
         <div class="baner">
             <div class="triangle"></div>
             <div class="oval"></div>
-            <a href="index.html"><h1>MATEMATYKA</h1></a>
+            <a href="index.html" style="text-decoration:none"><h1>MATEMATYKA</h1></a>
             <div class="oval"></div>
             <div class="triangle"></div>
         </div>
@@ -33,7 +33,11 @@
         <div class="prawa-kolumna">
             <h1>Zawartość podstron</h1>
             <section id="JakaToLiczba">
-            <p>W tej sekcji pojawi się dialog dotyczący liczby.</p>
+                <form action="#">
+                    <label for="number">Podaj liczbę całkowitą:</label><br>
+                    <input type="number" id="number" name="number"><br><br>
+                    <input type="submit" value="Sprawdź">
+                </form>
             </section>
         </div>
     </main>
