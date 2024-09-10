@@ -12,7 +12,7 @@
         <div class="baner">
             <div class="triangle"></div>
             <div class="oval"></div>
-            <a href="index.html"><h1>MATEMATYKA</h1></a>
+            <a href="index.html" style="text-decoration:none"><h1>MATEMATYKA</h1></a>
             <div class="oval"></div>
             <div class="triangle"></div>
         </div>
@@ -33,8 +33,14 @@
         <div class="prawa-kolumna">
             <h1>Zawartość podstron</h1>
                 <section id="liczby-calkowite">
-                <p>W tej sekcji pojawi się dialog dotyczący zakresu liczb.</p>
-            </section>
+                    <form action="#">
+                        <label for="start">Podaj liczbę początkową:</label><br>
+                        <input type="number" id="start" name="start"><br><br>
+                        <label for="end">Podaj liczbę końcową:</label><br>
+                        <input type="number" id="end" name="end"><br><br>
+                        <input type="submit" value="Pokaż zakres">
+                    </form>
+                </section>
         </div>
     </main>
 

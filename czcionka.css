@@ -57,12 +57,14 @@ main {
     width: 40%;
     background-color: #f4f4f4;
     padding: 10px;
+    border:1px solid black;
 }
 
 .prawa-kolumna {
     width: 60%;
     padding: 20px;
     background-color: #fff;
+    border:1px solid black;
 }
 
 nav ul {
