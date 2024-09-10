@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+.baner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #f0f0e0;
+    padding: 10px;
+}
+
+.triangle, .oval {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: white;
+}
+
+.oval {
+    border-radius: 50%;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.opis {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.lewa-kolumna {
+    width: 40%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.prawa-kolumna {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
